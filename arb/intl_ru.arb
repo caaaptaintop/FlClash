@@ -778,7 +778,7 @@
   "extraLarge": "Очень крупный",
   "switchProfile": "Сменить профиль",
   "lastUpdated": "Последнее обновление",
-  "nodeQualityRisk": "Риск",
+  "nodeQualityRisk": "Риск IP",
   "nodeQualityResidential": "Домашний",
   "nodeQualityNonResidential": "Не домашний",
   "nodeQualityNative": "Нативный",
@@ -791,5 +791,12 @@
   "nodeQualityCheckedAt": "Время проверки",
   "nodeQualitySource": "Источник",
   "nodeQualityExplanation": "Чем ниже риск, тем лучше. Типы IP указаны по данным IPPure. Не домашний IP не обязательно принадлежит дата-центру; нативный тип не является гарантией. При каждом замере выполняется новая проверка, не более двух одновременно, без смены выбранного узла.",
-  "nodeQualityRefresh": "Обновить задержку и качество IP"
+  "nodeQualityRefresh": "Обновить задержку и качество IP",
+  "nodeQualityExtremelyClean": "Очень чистый",
+  "nodeQualityClean": "Чистый",
+  "nodeQualityNeutral": "Нейтральный",
+  "nodeQualityLowRisk": "Низкий риск",
+  "nodeQualityModerateRisk": "Умеренный риск",
+  "nodeQualityExtremeRisk": "Крайний риск",
+  "nodeQualityLowerIsBetter": "Ниже — лучше"
 }

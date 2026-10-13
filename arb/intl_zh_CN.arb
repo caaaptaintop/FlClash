@@ -778,7 +778,7 @@
   "extraLarge": "超大",
   "switchProfile": "切换配置",
   "lastUpdated": "上次更新",
-  "nodeQualityRisk": "风险",
+  "nodeQualityRisk": "IP 风险",
   "nodeQualityResidential": "住宅",
   "nodeQualityNonResidential": "非住宅",
   "nodeQualityNative": "原生",
@@ -791,5 +791,12 @@
   "nodeQualityCheckedAt": "检测时间",
   "nodeQualitySource": "来源",
   "nodeQualityExplanation": "风险分越低越好。住宅、原生/广播为 IPPure 数据源分类；非住宅不等于已确认机房，原生也不代表绝对保证。每次测速重新检测，后台最多同时检测两个节点，不切换当前节点。",
-  "nodeQualityRefresh": "刷新延时与 IP 质量"
+  "nodeQualityRefresh": "刷新延时与 IP 质量",
+  "nodeQualityExtremelyClean": "极度纯净",
+  "nodeQualityClean": "纯净",
+  "nodeQualityNeutral": "中性",
+  "nodeQualityLowRisk": "轻度风险",
+  "nodeQualityModerateRisk": "中度风险",
+  "nodeQualityExtremeRisk": "极度风险",
+  "nodeQualityLowerIsBetter": "越低越好"
 }

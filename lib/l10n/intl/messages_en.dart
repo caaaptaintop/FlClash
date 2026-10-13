@@ -963,8 +963,15 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "nodeQualityBroadcast": MessageLookupByLibrary.simpleMessage("Broadcast"),
     "nodeQualityCheckedAt": MessageLookupByLibrary.simpleMessage("Checked at"),
+    "nodeQualityClean": MessageLookupByLibrary.simpleMessage("Clean"),
     "nodeQualityExplanation": MessageLookupByLibrary.simpleMessage(
       "Lower risk scores are better. Residential and native/broadcast are IPPure classifications. Non-residential does not confirm hosting; native is not a guarantee. Each latency test runs a new check, with at most two checks at once and without changing the selected node.",
+    ),
+    "nodeQualityExtremeRisk": MessageLookupByLibrary.simpleMessage(
+      "Extreme risk",
+    ),
+    "nodeQualityExtremelyClean": MessageLookupByLibrary.simpleMessage(
+      "Very clean",
     ),
     "nodeQualityFailed": MessageLookupByLibrary.simpleMessage(
       "Check failed; retry",
@@ -973,7 +980,15 @@ class MessageLookup extends MessageLookupByLibrary {
       "Test latency to update IP quality",
     ),
     "nodeQualityLoading": MessageLookupByLibrary.simpleMessage("Updating"),
+    "nodeQualityLowRisk": MessageLookupByLibrary.simpleMessage("Low risk"),
+    "nodeQualityLowerIsBetter": MessageLookupByLibrary.simpleMessage(
+      "Lower is better",
+    ),
+    "nodeQualityModerateRisk": MessageLookupByLibrary.simpleMessage(
+      "Moderate risk",
+    ),
     "nodeQualityNative": MessageLookupByLibrary.simpleMessage("Native"),
+    "nodeQualityNeutral": MessageLookupByLibrary.simpleMessage("Neutral"),
     "nodeQualityNonResidential": MessageLookupByLibrary.simpleMessage(
       "Non-residential",
     ),
@@ -983,7 +998,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "nodeQualityResidential": MessageLookupByLibrary.simpleMessage(
       "Residential",
     ),
-    "nodeQualityRisk": MessageLookupByLibrary.simpleMessage("Risk"),
+    "nodeQualityRisk": MessageLookupByLibrary.simpleMessage("IP risk"),
     "nodeQualitySource": MessageLookupByLibrary.simpleMessage("Source"),
     "nodeQualityStale": MessageLookupByLibrary.simpleMessage(
       "Previous result (refresh failed)",

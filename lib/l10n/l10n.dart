@@ -6448,9 +6448,9 @@ class AppLocalizations {
     );
   }
 
-  /// `Risk`
+  /// `IP risk`
   String get nodeQualityRisk {
-    return Intl.message('Risk', name: 'nodeQualityRisk', desc: '', args: []);
+    return Intl.message('IP risk', name: 'nodeQualityRisk', desc: '', args: []);
   }
 
   /// `Residential`
@@ -6578,6 +6578,71 @@ class AppLocalizations {
     return Intl.message(
       'Refresh latency and IP quality',
       name: 'nodeQualityRefresh',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Very clean`
+  String get nodeQualityExtremelyClean {
+    return Intl.message(
+      'Very clean',
+      name: 'nodeQualityExtremelyClean',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Clean`
+  String get nodeQualityClean {
+    return Intl.message('Clean', name: 'nodeQualityClean', desc: '', args: []);
+  }
+
+  /// `Neutral`
+  String get nodeQualityNeutral {
+    return Intl.message(
+      'Neutral',
+      name: 'nodeQualityNeutral',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Low risk`
+  String get nodeQualityLowRisk {
+    return Intl.message(
+      'Low risk',
+      name: 'nodeQualityLowRisk',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Moderate risk`
+  String get nodeQualityModerateRisk {
+    return Intl.message(
+      'Moderate risk',
+      name: 'nodeQualityModerateRisk',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Extreme risk`
+  String get nodeQualityExtremeRisk {
+    return Intl.message(
+      'Extreme risk',
+      name: 'nodeQualityExtremeRisk',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lower is better`
+  String get nodeQualityLowerIsBetter {
+    return Intl.message(
+      'Lower is better',
+      name: 'nodeQualityLowerIsBetter',
       desc: '',
       args: [],
     );

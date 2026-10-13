@@ -3,6 +3,7 @@ import 'package:fl_clash/models/models.dart';
 import 'package:fl_clash/providers/providers.dart';
 import 'package:fl_clash/state.dart';
 import 'package:fl_clash/views/proxies/card.dart';
+import 'package:fl_clash/views/proxies/common.dart';
 import 'package:fl_clash/widgets/widgets.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -58,21 +59,23 @@ void main() {
         container: container,
         child: TestApp(
           homeBuilder: (child) => Scaffold(body: child),
-          child: Column(
-            children: [
-              for (var index = 0; index < 2; index++)
-                SizedBox(
-                  height: 120,
-                  child: ProxyCard(
-                    key: ValueKey('proxy $index'),
-                    groupName: 'group',
-                    testUrl: _testUrl,
-                    proxy: Proxy(name: 'proxy $index', type: 'Shadowsocks'),
-                    groupType: GroupType.Selector,
-                    type: type,
+          child: Builder(
+            builder: (_) => Column(
+              children: [
+                for (var index = 0; index < 2; index++)
+                  SizedBox(
+                    height: getItemHeight(type),
+                    child: ProxyCard(
+                      key: ValueKey('proxy $index'),
+                      groupName: 'group',
+                      testUrl: _testUrl,
+                      proxy: Proxy(name: 'proxy $index', type: 'Shadowsocks'),
+                      groupType: GroupType.Selector,
+                      type: type,
+                    ),
                   ),
-                ),
-            ],
+              ],
+            ),
           ),
         ),
       ),

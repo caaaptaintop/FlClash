@@ -1004,8 +1004,15 @@ class MessageLookup extends MessageLookupByLibrary {
     "nodeQualityCheckedAt": MessageLookupByLibrary.simpleMessage(
       "Время проверки",
     ),
+    "nodeQualityClean": MessageLookupByLibrary.simpleMessage("Чистый"),
     "nodeQualityExplanation": MessageLookupByLibrary.simpleMessage(
       "Чем ниже риск, тем лучше. Типы IP указаны по данным IPPure. Не домашний IP не обязательно принадлежит дата-центру; нативный тип не является гарантией. При каждом замере выполняется новая проверка, не более двух одновременно, без смены выбранного узла.",
+    ),
+    "nodeQualityExtremeRisk": MessageLookupByLibrary.simpleMessage(
+      "Крайний риск",
+    ),
+    "nodeQualityExtremelyClean": MessageLookupByLibrary.simpleMessage(
+      "Очень чистый",
     ),
     "nodeQualityFailed": MessageLookupByLibrary.simpleMessage(
       "Ошибка; повторите проверку",
@@ -1014,7 +1021,15 @@ class MessageLookup extends MessageLookupByLibrary {
       "Проверка задержки обновит качество IP",
     ),
     "nodeQualityLoading": MessageLookupByLibrary.simpleMessage("Обновление"),
+    "nodeQualityLowRisk": MessageLookupByLibrary.simpleMessage("Низкий риск"),
+    "nodeQualityLowerIsBetter": MessageLookupByLibrary.simpleMessage(
+      "Ниже — лучше",
+    ),
+    "nodeQualityModerateRisk": MessageLookupByLibrary.simpleMessage(
+      "Умеренный риск",
+    ),
     "nodeQualityNative": MessageLookupByLibrary.simpleMessage("Нативный"),
+    "nodeQualityNeutral": MessageLookupByLibrary.simpleMessage("Нейтральный"),
     "nodeQualityNonResidential": MessageLookupByLibrary.simpleMessage(
       "Не домашний",
     ),
@@ -1022,7 +1037,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Обновить задержку и качество IP",
     ),
     "nodeQualityResidential": MessageLookupByLibrary.simpleMessage("Домашний"),
-    "nodeQualityRisk": MessageLookupByLibrary.simpleMessage("Риск"),
+    "nodeQualityRisk": MessageLookupByLibrary.simpleMessage("Риск IP"),
     "nodeQualitySource": MessageLookupByLibrary.simpleMessage("Источник"),
     "nodeQualityStale": MessageLookupByLibrary.simpleMessage(
       "Предыдущий результат (ошибка обновления)",

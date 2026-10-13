@@ -778,7 +778,7 @@
   "extraLarge": "Extra large",
   "switchProfile": "Switch profile",
   "lastUpdated": "Last updated",
-  "nodeQualityRisk": "Risk",
+  "nodeQualityRisk": "IP risk",
   "nodeQualityResidential": "Residential",
   "nodeQualityNonResidential": "Non-residential",
   "nodeQualityNative": "Native",
@@ -791,5 +791,12 @@
   "nodeQualityCheckedAt": "Checked at",
   "nodeQualitySource": "Source",
   "nodeQualityExplanation": "Lower risk scores are better. Residential and native/broadcast are IPPure classifications. Non-residential does not confirm hosting; native is not a guarantee. Each latency test runs a new check, with at most two checks at once and without changing the selected node.",
-  "nodeQualityRefresh": "Refresh latency and IP quality"
+  "nodeQualityRefresh": "Refresh latency and IP quality",
+  "nodeQualityExtremelyClean": "Very clean",
+  "nodeQualityClean": "Clean",
+  "nodeQualityNeutral": "Neutral",
+  "nodeQualityLowRisk": "Low risk",
+  "nodeQualityModerateRisk": "Moderate risk",
+  "nodeQualityExtremeRisk": "Extreme risk",
+  "nodeQualityLowerIsBetter": "Lower is better"
 }

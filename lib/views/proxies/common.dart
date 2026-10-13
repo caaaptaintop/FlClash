@@ -5,6 +5,8 @@ import 'package:flutter/widgets.dart';
 
 const proxyGridSpacing = 8.0;
 
+double get nodeQualityHeight => globalState.measure.labelSmallHeight * 3 + 24;
+
 double get listHeaderHeight {
   final measure = globalState.measure;
   return 20 + measure.titleSmallHeight + 2 + measure.labelSmallHeight + 2;
@@ -18,7 +20,7 @@ double getItemHeight(ProxyCardType proxyCardType) {
       measure.bodySmallHeight +
       8 +
       4 +
-      measure.labelSmallHeight +
+      nodeQualityHeight +
       6;
   return switch (proxyCardType) {
     ProxyCardType.expand => baseHeight + measure.labelSmallHeight + 6,

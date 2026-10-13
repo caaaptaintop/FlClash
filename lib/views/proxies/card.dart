@@ -8,6 +8,7 @@ import 'package:fl_clash/widgets/widgets.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import 'common.dart';
 import 'quality.dart';
 
 void selectGroupProxy(
@@ -150,7 +151,7 @@ class ProxyCard extends ConsumerWidget {
                   ),
                 const SizedBox(height: 6),
                 SizedBox(
-                  height: measure.labelSmallHeight,
+                  height: nodeQualityHeight,
                   child: NodeQualitySummary(proxyName: proxy.name),
                 ),
               ],
