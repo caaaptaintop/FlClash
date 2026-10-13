@@ -22,6 +22,19 @@ Fork：https://github.com/caaaptaintop/FlClash
 第三方接口可能限流或变化；检测失败不会影响原测速，也不会改变当前选路。
 检测会额外产生少量网络请求，与日常流量共享节点带宽，不能承诺完全没有带宽影响。
 
+## macOS 正常使用版本
+
+```bash
+bash tool/build_ip_quality_release.sh
+```
+
+产物：`build/macos/Build/Products/Release/FlClash IP.app`。
+正式版使用 `SAFE_MODE=false`、`APP_ENV=stable`，可以监听本地代理端口、设置系统代理与登录自启动。
+2026-10-13 已安装到本机 `/Applications/FlClash IP.app`，使用 127.0.0.1:7898，规则模式，TUN 关闭。
+节点订阅由用户在供应商网站开放更新权限后手动更新；本机节点 provider 的 `interval: 0`，配置自动更新关闭。
+代理页的延时测试及“刷新延时与 IP 质量”仅检测现有节点，正常获取质量信息不需要开放订阅下载权限。
+第三方分类不能确认机房时显示“非住宅”，不推断“机房”。
+
 ## macOS 安全预览
 
 ```bash
