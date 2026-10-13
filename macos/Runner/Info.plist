@@ -27,9 +27,7 @@
 			<string></string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>clash</string>
-				<string>clashmeta</string>
-				<string>flclash</string>
+				<string>flclash-ip</string>
 			</array>
 		</dict>
 	</array>

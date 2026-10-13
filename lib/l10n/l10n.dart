@@ -6447,6 +6447,141 @@ class AppLocalizations {
       args: [],
     );
   }
+
+  /// `Risk`
+  String get nodeQualityRisk {
+    return Intl.message('Risk', name: 'nodeQualityRisk', desc: '', args: []);
+  }
+
+  /// `Residential`
+  String get nodeQualityResidential {
+    return Intl.message(
+      'Residential',
+      name: 'nodeQualityResidential',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Non-residential`
+  String get nodeQualityNonResidential {
+    return Intl.message(
+      'Non-residential',
+      name: 'nodeQualityNonResidential',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Native`
+  String get nodeQualityNative {
+    return Intl.message(
+      'Native',
+      name: 'nodeQualityNative',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Broadcast`
+  String get nodeQualityBroadcast {
+    return Intl.message(
+      'Broadcast',
+      name: 'nodeQualityBroadcast',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Unknown`
+  String get nodeQualityUnknown {
+    return Intl.message(
+      'Unknown',
+      name: 'nodeQualityUnknown',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Updating`
+  String get nodeQualityLoading {
+    return Intl.message(
+      'Updating',
+      name: 'nodeQualityLoading',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Check failed; retry`
+  String get nodeQualityFailed {
+    return Intl.message(
+      'Check failed; retry',
+      name: 'nodeQualityFailed',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Test latency to update IP quality`
+  String get nodeQualityIdle {
+    return Intl.message(
+      'Test latency to update IP quality',
+      name: 'nodeQualityIdle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Previous result (refresh failed)`
+  String get nodeQualityStale {
+    return Intl.message(
+      'Previous result (refresh failed)',
+      name: 'nodeQualityStale',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Checked at`
+  String get nodeQualityCheckedAt {
+    return Intl.message(
+      'Checked at',
+      name: 'nodeQualityCheckedAt',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Source`
+  String get nodeQualitySource {
+    return Intl.message(
+      'Source',
+      name: 'nodeQualitySource',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lower risk scores are better. Residential and native/broadcast are IPPure classifications. Non-residential does not confirm hosting; native is not a guarantee. Each latency test runs a new check, with at most two checks at once and without changing the selected node.`
+  String get nodeQualityExplanation {
+    return Intl.message(
+      'Lower risk scores are better. Residential and native/broadcast are IPPure classifications. Non-residential does not confirm hosting; native is not a guarantee. Each latency test runs a new check, with at most two checks at once and without changing the selected node.',
+      name: 'nodeQualityExplanation',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Refresh latency and IP quality`
+  String get nodeQualityRefresh {
+    return Intl.message(
+      'Refresh latency and IP quality',
+      name: 'nodeQualityRefresh',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<AppLocalizations> {

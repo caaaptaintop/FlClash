@@ -357,6 +357,11 @@ class ProxiesAction extends _$ProxiesAction {
     if (targets.isEmpty) {
       return;
     }
+    unawaited(
+      ref.read(nodeQualityProvider.notifier).refresh(
+        targets.map((target) => target.proxyName),
+      ),
+    );
     final pending = ref.read(pendingDelayTestsProvider.notifier);
     final job = _DelayTestJob(targets.map((target) => target.key));
     _delayTestJobs.add(job);

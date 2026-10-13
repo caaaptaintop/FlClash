@@ -126,6 +126,22 @@ class _ProxiesViewState extends ConsumerState<ProxiesView> {
       resizeToAvoidBottomInset: false,
       primaryAction: _buildPrimaryAction(),
       iconActions: [
+        IconButtonData(
+          glyph: AppGlyphs.refresh,
+          onPressed: () {
+            if (_isTab) {
+              _proxiesTabKey.currentState?.delayTestCurrentGroup();
+            } else {
+              final query = ref.read(queryProvider(QueryTag.proxies));
+              ref
+                  .read(proxiesActionProvider.notifier)
+                  .delayTestGroups(
+                    ref.read(filterGroupsStateProvider(query)).value,
+                  );
+            }
+          },
+          tooltip: context.appLocalizations.nodeQualityRefresh,
+        ),
         if (_isTab)
           IconButtonData(
             glyph: AppGlyphs.locate,

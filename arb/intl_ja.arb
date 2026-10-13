@@ -777,5 +777,19 @@
   "large": "大",
   "extraLarge": "特大",
   "switchProfile": "プロファイルを切り替え",
-  "lastUpdated": "最終更新"
+  "lastUpdated": "最終更新",
+  "nodeQualityRisk": "リスク",
+  "nodeQualityResidential": "住宅",
+  "nodeQualityNonResidential": "非住宅",
+  "nodeQualityNative": "ネイティブ",
+  "nodeQualityBroadcast": "ブロードキャスト",
+  "nodeQualityUnknown": "不明",
+  "nodeQualityLoading": "更新中",
+  "nodeQualityFailed": "検査失敗・再試行可能",
+  "nodeQualityIdle": "遅延測定で IP 品質を更新",
+  "nodeQualityStale": "前回の結果（更新失敗）",
+  "nodeQualityCheckedAt": "検査日時",
+  "nodeQualitySource": "情報源",
+  "nodeQualityExplanation": "リスク値は低いほど良好です。住宅とネイティブ分類は IPPure に基づきます。非住宅だけではデータセンターと断定できず、ネイティブも保証ではありません。遅延測定ごとに最大2件を並行検査し、選択ノードを変更しません。",
+  "nodeQualityRefresh": "遅延と IP 品質を更新"
 }

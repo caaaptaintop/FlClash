@@ -777,5 +777,19 @@
   "large": "Крупный",
   "extraLarge": "Очень крупный",
   "switchProfile": "Сменить профиль",
-  "lastUpdated": "Последнее обновление"
+  "lastUpdated": "Последнее обновление",
+  "nodeQualityRisk": "Риск",
+  "nodeQualityResidential": "Домашний",
+  "nodeQualityNonResidential": "Не домашний",
+  "nodeQualityNative": "Нативный",
+  "nodeQualityBroadcast": "Broadcast",
+  "nodeQualityUnknown": "Неизвестно",
+  "nodeQualityLoading": "Обновление",
+  "nodeQualityFailed": "Ошибка; повторите проверку",
+  "nodeQualityIdle": "Проверка задержки обновит качество IP",
+  "nodeQualityStale": "Предыдущий результат (ошибка обновления)",
+  "nodeQualityCheckedAt": "Время проверки",
+  "nodeQualitySource": "Источник",
+  "nodeQualityExplanation": "Чем ниже риск, тем лучше. Типы IP указаны по данным IPPure. Не домашний IP не обязательно принадлежит дата-центру; нативный тип не является гарантией. При каждом замере выполняется новая проверка, не более двух одновременно, без смены выбранного узла.",
+  "nodeQualityRefresh": "Обновить задержку и качество IP"
 }

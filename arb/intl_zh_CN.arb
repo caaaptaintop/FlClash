@@ -777,5 +777,19 @@
   "large": "大",
   "extraLarge": "超大",
   "switchProfile": "切换配置",
-  "lastUpdated": "上次更新"
+  "lastUpdated": "上次更新",
+  "nodeQualityRisk": "风险",
+  "nodeQualityResidential": "住宅",
+  "nodeQualityNonResidential": "非住宅",
+  "nodeQualityNative": "原生",
+  "nodeQualityBroadcast": "广播",
+  "nodeQualityUnknown": "未知",
+  "nodeQualityLoading": "更新中",
+  "nodeQualityFailed": "检测失败，可重试",
+  "nodeQualityIdle": "测速时更新 IP 质量",
+  "nodeQualityStale": "上次结果（本次失败）",
+  "nodeQualityCheckedAt": "检测时间",
+  "nodeQualitySource": "来源",
+  "nodeQualityExplanation": "风险分越低越好。住宅、原生/广播为 IPPure 数据源分类；非住宅不等于已确认机房，原生也不代表绝对保证。每次测速重新检测，后台最多同时检测两个节点，不切换当前节点。",
+  "nodeQualityRefresh": "刷新延时与 IP 质量"
 }

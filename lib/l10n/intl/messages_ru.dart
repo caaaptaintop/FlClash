@@ -755,9 +755,10 @@ class MessageLookup extends MessageLookupByLibrary {
     "inputRuleContent": MessageLookupByLibrary.simpleMessage(
       "Введите содержимое правила",
     ),
-    "installedAppsPermissionDeniedMessage": MessageLookupByLibrary.simpleMessage(
-      "Разрешение на список приложений отклонено, поэтому установленные приложения недоступны. Предоставьте его вручную в системных настройках.",
-    ),
+    "installedAppsPermissionDeniedMessage":
+        MessageLookupByLibrary.simpleMessage(
+          "Разрешение на список приложений отклонено, поэтому установленные приложения недоступны. Предоставьте его вручную в системных настройках.",
+        ),
     "installedAppsPermissionDesc": MessageLookupByLibrary.simpleMessage(
       "Эта система не выдаёт список установленных приложений без разрешения. Предоставьте его, чтобы настроить прокси для отдельных приложений.",
     ),
@@ -999,6 +1000,34 @@ class MessageLookup extends MessageLookupByLibrary {
     "noSearchResults": MessageLookupByLibrary.simpleMessage(
       "Ничего не найдено",
     ),
+    "nodeQualityBroadcast": MessageLookupByLibrary.simpleMessage("Broadcast"),
+    "nodeQualityCheckedAt": MessageLookupByLibrary.simpleMessage(
+      "Время проверки",
+    ),
+    "nodeQualityExplanation": MessageLookupByLibrary.simpleMessage(
+      "Чем ниже риск, тем лучше. Типы IP указаны по данным IPPure. Не домашний IP не обязательно принадлежит дата-центру; нативный тип не является гарантией. При каждом замере выполняется новая проверка, не более двух одновременно, без смены выбранного узла.",
+    ),
+    "nodeQualityFailed": MessageLookupByLibrary.simpleMessage(
+      "Ошибка; повторите проверку",
+    ),
+    "nodeQualityIdle": MessageLookupByLibrary.simpleMessage(
+      "Проверка задержки обновит качество IP",
+    ),
+    "nodeQualityLoading": MessageLookupByLibrary.simpleMessage("Обновление"),
+    "nodeQualityNative": MessageLookupByLibrary.simpleMessage("Нативный"),
+    "nodeQualityNonResidential": MessageLookupByLibrary.simpleMessage(
+      "Не домашний",
+    ),
+    "nodeQualityRefresh": MessageLookupByLibrary.simpleMessage(
+      "Обновить задержку и качество IP",
+    ),
+    "nodeQualityResidential": MessageLookupByLibrary.simpleMessage("Домашний"),
+    "nodeQualityRisk": MessageLookupByLibrary.simpleMessage("Риск"),
+    "nodeQualitySource": MessageLookupByLibrary.simpleMessage("Источник"),
+    "nodeQualityStale": MessageLookupByLibrary.simpleMessage(
+      "Предыдущий результат (ошибка обновления)",
+    ),
+    "nodeQualityUnknown": MessageLookupByLibrary.simpleMessage("Неизвестно"),
     "nonTextProviderFile": MessageLookupByLibrary.simpleMessage(
       "Этот внешний ресурс не является текстовым файлом",
     ),

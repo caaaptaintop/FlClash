@@ -12,6 +12,7 @@ import 'package:fl_clash/plugins/app.dart';
 import 'package:fl_clash/plugins/service.dart';
 import 'package:fl_clash/providers/actions/system_exit.dart';
 import 'package:fl_clash/providers/providers.dart';
+import 'package:fl_clash/providers/node_quality.dart';
 import 'package:fl_clash/state.dart';
 import 'package:material_ui/material_ui.dart';
 import 'package:flutter/services.dart';

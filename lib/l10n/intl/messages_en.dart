@@ -732,9 +732,10 @@ class MessageLookup extends MessageLookupByLibrary {
     "inputRuleContent": MessageLookupByLibrary.simpleMessage(
       "Enter the rule content",
     ),
-    "installedAppsPermissionDeniedMessage": MessageLookupByLibrary.simpleMessage(
-      "The app list permission was denied, so installed apps cannot be listed. Please grant it manually in system settings.",
-    ),
+    "installedAppsPermissionDeniedMessage":
+        MessageLookupByLibrary.simpleMessage(
+          "The app list permission was denied, so installed apps cannot be listed. Please grant it manually in system settings.",
+        ),
     "installedAppsPermissionDesc": MessageLookupByLibrary.simpleMessage(
       "This system hides the installed app list until the permission is granted. Authorize it to configure the per-app proxy.",
     ),
@@ -960,6 +961,34 @@ class MessageLookup extends MessageLookupByLibrary {
     "noSearchResults": MessageLookupByLibrary.simpleMessage(
       "No matching results",
     ),
+    "nodeQualityBroadcast": MessageLookupByLibrary.simpleMessage("Broadcast"),
+    "nodeQualityCheckedAt": MessageLookupByLibrary.simpleMessage("Checked at"),
+    "nodeQualityExplanation": MessageLookupByLibrary.simpleMessage(
+      "Lower risk scores are better. Residential and native/broadcast are IPPure classifications. Non-residential does not confirm hosting; native is not a guarantee. Each latency test runs a new check, with at most two checks at once and without changing the selected node.",
+    ),
+    "nodeQualityFailed": MessageLookupByLibrary.simpleMessage(
+      "Check failed; retry",
+    ),
+    "nodeQualityIdle": MessageLookupByLibrary.simpleMessage(
+      "Test latency to update IP quality",
+    ),
+    "nodeQualityLoading": MessageLookupByLibrary.simpleMessage("Updating"),
+    "nodeQualityNative": MessageLookupByLibrary.simpleMessage("Native"),
+    "nodeQualityNonResidential": MessageLookupByLibrary.simpleMessage(
+      "Non-residential",
+    ),
+    "nodeQualityRefresh": MessageLookupByLibrary.simpleMessage(
+      "Refresh latency and IP quality",
+    ),
+    "nodeQualityResidential": MessageLookupByLibrary.simpleMessage(
+      "Residential",
+    ),
+    "nodeQualityRisk": MessageLookupByLibrary.simpleMessage("Risk"),
+    "nodeQualitySource": MessageLookupByLibrary.simpleMessage("Source"),
+    "nodeQualityStale": MessageLookupByLibrary.simpleMessage(
+      "Previous result (refresh failed)",
+    ),
+    "nodeQualityUnknown": MessageLookupByLibrary.simpleMessage("Unknown"),
     "nonTextProviderFile": MessageLookupByLibrary.simpleMessage(
       "This external resource is not a text file",
     ),
